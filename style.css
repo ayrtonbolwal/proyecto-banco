@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bgBlue: #1D1E26;
+    --bgBlueh: #121318;
+    --textWhite: #E4CEF2;
+    --titlePurple: #5E35F2;
+    --textPink: #F20587;
+}
+
+body{
+    background-color: var(--bgBlue);
+    color: var(--textWhite);
+    font-family: 'Inter', sans-serif;
+}

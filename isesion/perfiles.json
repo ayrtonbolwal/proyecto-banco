@@ -1,0 +1,380 @@
+{
+    "perfiles": [
+        {
+            "id": "00001",
+            "nombre": "Juan Pérez",
+            "usuario": "juanperez123",
+            "contrasena": "clave123",
+            "saldo": 25000,
+            "numero_tarjeta": "1234 5678 9012 3456",
+            "correo": "juanperez@example.com",
+            "status": false,
+            "contactos": [
+                {
+                    "id": 1,
+                    "nombre": "María",
+                    "apellido": "García",
+                    "numero_tarjeta": "2345 6789 0123 4567",
+                    "numero_telefono": "555-2345"
+                },
+                {
+                    "id": 2,
+                    "nombre": "Carlos",
+                    "apellido": "Rodríguez",
+                    "numero_tarjeta": "3456 7890 1234 5678",
+                    "numero_telefono": "555-3456"
+                },
+                {
+                    "id": 3,
+                    "nombre": "Laura",
+                    "apellido": "López",
+                    "numero_tarjeta": "4567 8901 2345 6789",
+                    "numero_telefono": "555-4567"
+                },
+                {
+                    "id": 4,
+                    "nombre": "Pedro",
+                    "apellido": "Martínez",
+                    "numero_tarjeta": "5678 9012 3456 7890",
+                    "numero_telefono": "555-5678"
+                },
+                {
+                    "id": 5,
+                    "nombre": "Ana",
+                    "apellido": "Sánchez",
+                    "numero_tarjeta": "6789 0123 4567 8901",
+                    "numero_telefono": "555-6789"
+                }
+            ]
+        },
+        {
+            "id": "00002",
+            "nombre": "María González",
+            "usuario": "mariagonzalez456",
+            "contrasena": "abcde",
+            "saldo": 15000,
+            "numero_tarjeta": "2345 6789 0123 4567",
+            "correo": "mariagonzalez@example.com",
+            "status": false,
+            "contactos": [
+                {
+                    "id": 1,
+                    "nombre": "Juan",
+                    "apellido": "Pérez",
+                    "numero_tarjeta": "1234 5678 9012 3456",
+                    "numero_telefono": "555-1234"
+                },
+                {
+                    "id": 2,
+                    "nombre": "Carlos",
+                    "apellido": "Rodríguez",
+                    "numero_tarjeta": "3456 7890 1234 5678",
+                    "numero_telefono": "555-3456"
+                },
+                {
+                    "id": 3,
+                    "nombre": "Laura",
+                    "apellido": "López",
+                    "numero_tarjeta": "4567 8901 2345 6789",
+                    "numero_telefono": "555-4567"
+                },
+                {
+                    "id": 4,
+                    "nombre": "Pedro",
+                    "apellido": "Martínez",
+                    "numero_tarjeta": "5678 9012 3456 7890",
+                    "numero_telefono": "555-5678"
+                },
+                {
+                    "id": 5,
+                    "nombre": "Ana",
+                    "apellido": "Sánchez",
+                    "numero_tarjeta": "6789 0123 4567 8901",
+                    "numero_telefono": "555-6789"
+                }
+            ]
+        },
+        {
+            "id": "00003",
+            "nombre": "Luisa López",
+            "usuario": "luisalopez789",
+            "contrasena": "password",
+            "saldo": 28000,
+            "numero_tarjeta": "3456 7890 1234 5678",
+            "correo": "luisalopez@example.com",
+            "status": false,
+            "contactos": [
+                {
+                    "id": 1,
+                    "nombre": "Juan",
+                    "apellido": "Pérez",
+                    "numero_tarjeta": "1234 5678 9012 3456",
+                    "numero_telefono": "555-1234"
+                },
+                {
+                    "id": 2,
+                    "nombre": "María",
+                    "apellido": "García",
+                    "numero_tarjeta": "2345 6789 0123 4567",
+                    "numero_telefono": "555-2345"
+                },
+                {
+                    "id": 3,
+                    "nombre": "Laura",
+                    "apellido": "López",
+                    "numero_tarjeta": "4567 8901 2345 6789",
+                    "numero_telefono": "555-4567"
+                },
+                {
+                    "id": 4,
+                    "nombre": "Pedro",
+                    "apellido": "Martínez",
+                    "numero_tarjeta": "5678 9012 3456 7890",
+                    "numero_telefono": "555-5678"
+                },
+                {
+                    "id": 5,
+                    "nombre": "Ana",
+                    "apellido": "Sánchez",
+                    "numero_tarjeta": "6789 0123 4567 8901",
+                    "numero_telefono": "555-6789"
+                }
+            ]
+        },
+        {
+            "id": "00004",
+            "nombre": "Carlos Ramírez",
+            "usuario": "carlosramirez321",
+            "contrasena": "secure123",
+            "saldo": 20000,
+            "numero_tarjeta": "4567 8901 2345 6789",
+            "correo": "carlosramirez@example.com",
+            "status": false,
+            "contactos": [
+                {
+                    "id": 1,
+                    "nombre": "Juan",
+                    "apellido": "Pérez",
+                    "numero_tarjeta": "1234 5678 9012 3456",
+                    "numero_telefono": "555-1234"
+                },
+                {
+                    "id": 2,
+                    "nombre": "María",
+                    "apellido": "García",
+                    "numero_tarjeta": "2345 6789 0123 4567",
+                    "numero_telefono": "555-2345"
+                },
+                {
+                    "id": 3,
+                    "nombre": "Laura",
+                    "apellido": "López",
+                    "numero_tarjeta": "4567 8901 2345 6789",
+                    "numero_telefono": "555-4567"
+                },
+                {
+                    "id": 4,
+                    "nombre": "Pedro",
+                    "apellido": "Martínez",
+                    "numero_tarjeta": "5678 9012 3456 7890",
+                    "numero_telefono": "555-5678"
+                },
+                {
+                    "id": 5,
+                    "nombre": "Ana",
+                    "apellido": "Sánchez",
+                    "numero_tarjeta": "6789 0123 4567 8901",
+                    "numero_telefono": "555-6789"
+                }
+            ]
+        },
+        {
+            "id": "00005",
+            "nombre": "Laura Torres",
+            "usuario": "latorres567",
+            "contrasena": "pass123",
+            "saldo": 30000,
+            "numero_tarjeta": "5678 9012 3456 7890",
+            "correo": "latorres@example.com",
+            "status": false,
+            "contactos": [
+                {
+                    "id": 1,
+                    "nombre": "Juan",
+                    "apellido": "Pérez",
+                    "numero_tarjeta": "1234 5678 9012 3456",
+                    "numero_telefono": "555-1234"
+                },
+                {
+                    "id": 2,
+                    "nombre": "María",
+                    "apellido": "García",
+                    "numero_tarjeta": "2345 6789 0123 4567",
+                    "numero_telefono": "555-2345"
+                },
+                {
+                    "id": 3,
+                    "nombre": "Carlos",
+                    "apellido": "Rodríguez",
+                    "numero_tarjeta": "3456 7890 1234 5678",
+                    "numero_telefono": "555-3456"
+                },
+                {
+                    "id": 4,
+                    "nombre": "Pedro",
+                    "apellido": "Martínez",
+                    "numero_tarjeta": "5678 9012 3456 7890",
+                    "numero_telefono": "555-5678"
+                },
+                {
+                    "id": 5,
+                    "nombre": "Ana",
+                    "apellido": "Sánchez",
+                    "numero_tarjeta": "6789 0123 4567 8901",
+                    "numero_telefono": "555-6789"
+                }
+            ]
+        },
+        {
+            "id": "00006",
+            "nombre": "Pedro Martínez",
+            "usuario": "pedromartinez",
+            "contrasena": "password1",
+            "saldo": 18000,
+            "numero_tarjeta": "6789 0123 4567 8901",
+            "correo": "pedromartinez@example.com",
+            "status": false,
+            "contactos": [
+                {
+                    "id": 1,
+                    "nombre": "Juan",
+                    "apellido": "Pérez",
+                    "numero_tarjeta": "1234 5678 9012 3456",
+                    "numero_telefono": "555-1234"
+                },
+                {
+                    "id": 2,
+                    "nombre": "María",
+                    "apellido": "García",
+                    "numero_tarjeta": "2345 6789 0123 4567",
+                    "numero_telefono": "555-2345"
+                },
+                {
+                    "id": 3,
+                    "nombre": "Carlos",
+                    "apellido": "Rodríguez",
+                    "numero_tarjeta": "3456 7890 1234 5678",
+                    "numero_telefono": "555-3456"
+                },
+                {
+                    "id": 4,
+                    "nombre": "Laura",
+                    "apellido": "López",
+                    "numero_tarjeta": "4567 8901 2345 6789",
+                    "numero_telefono": "555-4567"
+                },
+                {
+                    "id": 5,
+                    "nombre": "Ana",
+                    "apellido": "Sánchez",
+                    "numero_tarjeta": "6789 0123 4567 8901",
+                    "numero_telefono": "555-6789"
+                }
+            ]
+        },
+        {
+            "id": "00007",
+            "nombre": "Ana Sánchez",
+            "usuario": "anasanchez22",
+            "contrasena": "pass1234",
+            "saldo": 22000,
+            "numero_tarjeta": "7890 1234 5678 9012",
+            "correo": "anasanchez@example.com",
+            "status": false,
+            "contactos": [
+                {
+                    "id": 1,
+                    "nombre": "Juan",
+                    "apellido": "Pérez",
+                    "numero_tarjeta": "1234 5678 9012 3456",
+                    "numero_telefono": "555-1234"
+                },
+                {
+                    "id": 2,
+                    "nombre": "María",
+                    "apellido": "García",
+                    "numero_tarjeta": "2345 6789 0123 4567",
+                    "numero_telefono": "555-2345"
+                },
+                {
+                    "id": 3,
+                    "nombre": "Carlos",
+                    "apellido": "Rodríguez",
+                    "numero_tarjeta": "3456 7890 1234 5678",
+                    "numero_telefono": "555-3456"
+                },
+                {
+                    "id": 4,
+                    "nombre": "Laura",
+                    "apellido": "López",
+                    "numero_tarjeta": "4567 8901 2345 6789",
+                    "numero_telefono": "555-4567"
+                },
+                {
+                    "id": 5,
+                    "nombre": "Pedro",
+                    "apellido": "Martínez",
+                    "numero_tarjeta": "5678 9012 3456 7890",
+                    "numero_telefono": "555-5678"
+                }
+            ]
+        },
+        {
+            "id": "00008",
+            "nombre": "Sara Ramírez",
+            "usuario": "saramirez1",
+            "contrasena": "pass4321",
+            "saldo": 27000,
+            "numero_tarjeta": "8901 2345 6789 0123",
+            "correo": "saramirez@example.com",
+            "status": false,
+            "contactos": [
+                {
+                    "id": 1,
+                    "nombre": "Juan",
+                    "apellido": "Pérez",
+                    "numero_tarjeta": "1234 5678 9012 3456",
+                    "numero_telefono": "555-1234"
+                },
+                {
+                    "id": 2,
+                    "nombre": "María",
+                    "apellido": "García",
+                    "numero_tarjeta": "2345 6789 0123 4567",
+                    "numero_telefono": "555-2345"
+                },
+                {
+                    "id": 3,
+                    "nombre": "Carlos",
+                    "apellido": "Rodríguez",
+                    "numero_tarjeta": "3456 7890 1234 5678",
+                    "numero_telefono": "555-3456"
+                },
+                {
+                    "id": 4,
+                    "nombre": "Laura",
+                    "apellido": "López",
+                    "numero_tarjeta": "4567 8901 2345 6789",
+                    "numero_telefono": "555-4567"
+                },
+                {
+                    "id": 5,
+                    "nombre": "Pedro",
+                    "apellido": "Martínez",
+                    "numero_tarjeta": "5678 9012 3456 7890",
+                    "numero_telefono": "555-5678"
+                }
+            ]
+        }
+    ]
+}

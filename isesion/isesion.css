@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: var(--titlePurple);
+    width: 600px;
+    padding: 5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 1rem;
+}
+h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+label,
+input{
+    width: 100%;
+}
+label{
+    font-size: 2rem;
+}
+input{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+button{
+    font-size: 1.4rem;
+    padding: 1.4rem;
+    background-color: var(--bgBlue);
+    border-radius: 5px;
+    color: var(--textWhite);
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover{
+    background-color: var(--bgBlueh);
+}
+
+p#alertUser{
+    height: 2rem;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
