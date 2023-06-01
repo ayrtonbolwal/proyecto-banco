@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
-<body>
-    Este es Index
+<body class="container">
+    <nav>
+        <p class="logo">YouBank</p>
+        <ul>
+            <li>Inicio</li>
+            <li>Depositar</li>
+            <li>Retirar</li>
+            <li id="btn-salir">Salir</li>
+        </ul>
+    </nav>
+    <h1>Bienvenido <span id="userName"></span></h1>
+    <p>Tu saldo actual es de: <span id="userMoney"></span></p>
+    <main>
+        <section class="functions">
+            <div class="item-function" id="btn-retirar">Retirar</div>
+            <div class="item-function" id="btn-depositar">Depositar</div>
+            <div class="item-function" id="btn-pagar">Pagar</div>
+            <div class="item-function" id="btn-ayuda">Ayuda</div>
+        </section>
+    </main>
+    <section class="">
+    </section>
 </body>
+<script src="index.js"></script>
 </html>

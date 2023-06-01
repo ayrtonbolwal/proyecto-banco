@@ -9,6 +9,7 @@
     --bgBlueh: #121318;
     --textWhite: #E4CEF2;
     --titlePurple: #5E35F2;
+    --titlePurpleh:#4f2ccf;
     --textPink: #F20587;
 }
 
@@ -16,4 +17,8 @@ body{
     background-color: var(--bgBlue);
     color: var(--textWhite);
     font-family: 'Inter', sans-serif;
+}
+
+.container{
+    padding: 0 10rem;
 }
