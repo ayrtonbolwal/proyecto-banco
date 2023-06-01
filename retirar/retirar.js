@@ -1,5 +1,6 @@
 let btn_retirar = document.getElementById('btn-retirar');
-let btn_regresar = document.getElementById('btn-regresar')
+let btn_salir = document.getElementById('btn-salir');
+let btn_regresar = document.getElementById('btn-regresar');
 let input_retirar = document.getElementById('input-cantidad');
 let user_name = document.getElementById('userName');
 let user_money = document.getElementById('userSaldo');
@@ -41,7 +42,6 @@ function changeData(nuevo_saldo) {
     mensajeNuevoSaldo.innerHTML = "Tu nuevo saldo es: $" + nuevo_saldo;
     updateUsersData = JSON.stringify(arrayUsers);
     localStorage.setItem('perfiles', updateUsersData);
-
 }
 
 function retirar() {
@@ -65,15 +65,16 @@ function retirar() {
     }
 }
 
-function regresar(){
+function salir(){
     window.location.href = '../index/index.html';
 }
 
 
-let user_Data = userData();
+var user_Data = userData();
 user_name.innerHTML = user_Data.nombre;
 saldo = user_Data.saldo;
 user_money.innerHTML = saldo;
 
 btn_retirar.addEventListener('click', retirar);
-btn_regresar.addEventListener('click', regresar);
+btn_regresar.addEventListener('click', salir);
+btn_salir.addEventListener('click', salir);

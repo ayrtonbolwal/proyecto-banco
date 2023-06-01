@@ -2,6 +2,7 @@ let btn_retirar = document.getElementById("btn-retirar");
 let btn_depositar = document.getElementById("btn-depositar");
 let btn_pagar = document.getElementById("btn-pagar");
 let btn_ayuda = document.getElementById("btn-ayuda");
+let btn_salir = document.getElementById("btn-salir");
 
 let user_name = document.getElementById("userName");
 let user_money = document.getElementById("userMoney");
@@ -47,8 +48,14 @@ function userData() {
   return user_Data;
 }
 
+function salir(){
+  window.location.href = '../isesion/isesion.html';
+}
+
+
 let datosUsuario = userData();
 console.log(datosUsuario);
 
 user_name.innerHTML = datosUsuario.nombre;
 user_money.innerHTML = '$' + datosUsuario.saldo;
+btn_salir.addEventListener('click', salir);

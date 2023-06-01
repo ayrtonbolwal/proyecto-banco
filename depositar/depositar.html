@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="depositar.css">
+    <title>Document</title>
+</head>
+
+<body class="container">
+    <nav>
+        <p class="logo">YouBank</p>
+        <ul>
+            <li>Inicio</li>
+            <li>Depositar</li>
+            <li>Retirar</li>
+            <li id="btn-salir">Salir</li>
+        </ul>
+    </nav>
+    <p id="messageUser-1"></p>
+    <hr>
+    <main>
+        <section class="deposito">
+            <h1>Cantidad a Depositar</h1>
+            <form action="">
+                <input type="number" id="cantidadDeposito">
+            </form>
+        </section>
+        <section class="contactos">
+            <h2>Contacto a Depositar</h2>
+            <form action="" id="form-contactos">
+            </form>
+        </section>
+        <section class="depositarAction">
+            <h2>Depositar</h2>
+            <button id="btn-depositar"> Depositar</button>
+            <p id="messageUser-error"></p>
+        </section>
+    </main>
+</body>
+<script src="depositar.js"></script>
+
+</html>
