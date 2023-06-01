@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="retirar.css">
+    <title>Retirar</title>
+</head>
+<body class="container">
+    <nav>
+        <p class="logo">YouBank</p>
+        <ul>
+            <li>Inicio</li>
+            <li>Depositar</li>
+            <li>Retirar</li>
+            <li id="btn-salir">Salir</li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section-retirar">
+            <h1>Retirar</h1>
+            <p class="messageUser">Buen día <span id="userName"></span> tu saldo actual es de $<span id="userSaldo"></span></p>
+            <hr>
+            <form action="">
+                <label for="">Cantidad a Retirar</label>
+                <input type="number" id="input-cantidad">
+            </form>
+            <button id="btn-retirar">Retirar</button>
+            <p id="messageNewSaldo"></p>
+            <button id="btn-regresar">Listo</button>
+        </section>
+    </main>
+</body>
+<script src="retirar.js"></script>
+</html>

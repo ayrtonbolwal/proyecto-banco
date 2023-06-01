@@ -1,0 +1,104 @@
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    margin-bottom: 4rem;
+}
+nav .logo{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+nav ul{
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+nav ul li{
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.section-retirar{
+    width: 600px;
+    background-color: var(--titlePurple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem;
+    border-radius: 10px;
+}
+form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2rem;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+}
+
+label{
+    width: 100%;
+}
+label{
+    font-size: 1.4rem;
+}
+input{
+    font-size: 1.4rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+button{
+    font-size: 1.4rem;
+    padding: 1.4rem;
+    background-color: var(--bgBlue);
+    border-radius: 1rem;
+    color: var(--textWhite);
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button#btn-regresar{
+    display: none;
+    background-color: rgb(78, 153, 78);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    background-color: var(--bgBlueh);
+}
+
+.messageUser{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+hr{
+    width: 100%;
+}
