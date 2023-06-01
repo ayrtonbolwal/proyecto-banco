@@ -1,0 +1,26 @@
+body{
+    background-color: #dadada;
+    color: var(--bgBlue);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+main{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+main img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+a{
+    color: var(--bgBlue);
+}

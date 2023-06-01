@@ -52,6 +52,13 @@ function salir(){
   window.location.href = '../isesion/isesion.html';
 }
 
+function goToPagar(){
+  window.location.href = '../pageProblem/pageProblem.html'
+}
+function gotoAyuda(){
+  window.location.href = '../pageProblem/pageProblem.html'
+}
+
 
 let datosUsuario = userData();
 console.log(datosUsuario);
@@ -59,3 +66,5 @@ console.log(datosUsuario);
 user_name.innerHTML = datosUsuario.nombre;
 user_money.innerHTML = '$' + datosUsuario.saldo;
 btn_salir.addEventListener('click', salir);
+btn_pagar.addEventListener('click', goToPagar);
+btn_ayuda.addEventListener('click', gotoAyuda);
